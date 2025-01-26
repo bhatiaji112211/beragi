@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#my-navigation{
+    background-color: #1e1e1e;
+    border: 0;
+}
+
+#my-navigation .navbar-brand{
+    /* font-family: ; */
+    font-size: 25px;
+    color: #9c0a12;
+}
+
+#my-navigation #mynavbar li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+#my-navigation #mynavbar li a:hover{
+    color: #9c0a12;
+    border-bottom: 1px solid #9c0a12;
+}
+
+@media (max-width: 992px){
+    #my-navigation #mynavbar li a{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 737px){
+    .navbar-fixed-top{
+        width:auto
+    }
+}
+
+ 
+/* banner */
+
+#top{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/standard-quality-control-concept-m.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#top .top-tittle{
+    margin-top: 180px;
+    font-size: 80px;
+    /* font-family: ; */
+    color: #fff ;
+}
+
+#top .second-tittle{
+    color: #fff;
+    word-spacing: 10px;
+    font-size: 50px;
+}
+
+#top .second-tittle{
+    color: #fff;
+    word-spacing: 10px;
+    font-size: 50px;
+}
+
+@media (max-width:992px){
+    #top .top-tittle{
+        font-size: 100px;
+    }
+
+    #top .second-tittle{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:767px){
+    #top .top-tittle{
+        font-size: 80px;
+    }
+
+    #top .second-tittle{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:576px){
+    #top .top-tittle{
+        font-size: 60px;
+    }
+
+    #top .second-tittle{
+        font-size: 20px;
+    }
+}
+
+/* about */
+
+.about{
+    margin: 100px 0;
+}
+
+.about h1 button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    /* font-family: ; */
+    background: none;
+    cursor: text;
+    border: 1px solid #1e1e1e;
+}
+
+.about .center{
+    text-align: center;
+}
+
+.about .center .fa{
+    margin: 30px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+.about p{
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+.about .img-section-space{
+    margin-top: 3px;
+}
+
+@media (max-width:992px){
+    .about h1 button{
+        width: 200px;
+        height: 55px;
+    }
+
+    .about .center .fa{
+        font-size: 35px;
+    }
+
+    .about p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .about h1 button{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .about .center .fa{
+        font-size: 30px;
+    }
+
+    .about p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:535px){
+    .about h1 button{
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .about .fa{
+        font-size: 20px;
+    }
+
+    .about p{
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+}
