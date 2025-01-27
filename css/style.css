@@ -102,6 +102,10 @@ body{
     margin: 100px 0;
 }
 
+#about .flex{
+    display: flex;
+}
+
 .about h1 button{
     width: 250px;
     height: 60px;
