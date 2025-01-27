@@ -50,22 +50,16 @@ body{
 }
 
 #top .top-tittle{
-    margin-top: 180px;
-    font-size: 80px;
+    margin-top: 250px;
+    font-size: 70px;
     /* font-family: ; */
-    color: #fff ;
+    color: #9c0a12 ;
 }
 
 #top .second-tittle{
     color: #fff;
     word-spacing: 10px;
-    font-size: 50px;
-}
-
-#top .second-tittle{
-    color: #fff;
-    word-spacing: 10px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 @media (max-width:992px){
@@ -79,6 +73,10 @@ body{
 }
 
 @media (max-width:767px){
+    #top{
+        height: 50vh;
+    }
+
     #top .top-tittle{
         font-size: 80px;
     }
