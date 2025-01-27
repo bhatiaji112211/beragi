@@ -79,6 +79,7 @@ body{
 
     #top .top-tittle{
         font-size: 80px;
+        margin-top: 150px;
     }
 
     #top .second-tittle{
@@ -102,9 +103,6 @@ body{
     margin: 100px 0;
 }
 
-#about .flex{
-    display: flex;
-}
 
 .about h1 button{
     width: 250px;
@@ -165,6 +163,9 @@ body{
     .about p{
         font-size: 20px;
     }
+    .img-section{
+        align-items: center;
+    }
 }
 
 @media (max-width:535px){
@@ -181,5 +182,61 @@ body{
     .about p{
         font-size: 15px;
         word-spacing: 5px;
+    }
+    .img-section{
+        text-align: center;
+    }
+}
+
+
+.services{
+    width: 100%;
+    height: 500px;
+}
+
+.background_content{
+    background-image: url(../img/secvices\ banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.services h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 90px;
+    color: #9c0a12;
+}
+
+.services h1 span{
+    border-bottom: 10px solid #fff;
+}
+
+@media (max-width:992px){
+    .services h1{
+        font-size: 80px;
+    }
+
+    .services h1 span{
+        border-bottom: 8px solid #fff;
+    }
+}
+
+@media (max-width:767px){
+    .services h1{
+        font-size: 70px;
+    }
+    .services h1 span{
+        border-bottom: 7px solid #fff;
+    }
+}
+
+@media (max-width:535px){
+    .services h1{
+        font-size: 50px;
+    }
+
+    .services h1 span{
+        border-bottom: 5px solid #fff;
     }
 }
