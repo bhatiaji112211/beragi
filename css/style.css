@@ -294,7 +294,7 @@ body{
 @media(max-width:500px){
     .reservation-form .submit{
         position: relative;
-        left: 150px
+        left: 180px
     }
 }
 
