@@ -247,10 +247,6 @@ body{
     height: 500px;
 }
 
-.reservation-background-content{
-    
-}
-
 .reservation h1{
     text-align: center ;
     padding-top: 200px;
@@ -280,6 +276,19 @@ body{
 .reservation-form .submit{
     position: relative;
     right: 80px;
+}
+
+@media(max-width:767px){
+    .reservation-form .submit{
+        position: relative;
+        left: 300px;
+    }
+
+    .reservation-form button{
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+    }
 }
 
 /* footer */
