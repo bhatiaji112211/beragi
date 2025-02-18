@@ -291,6 +291,13 @@ body{
     }
 }
 
+@media(max-width:500px){
+    .reservation-form .submit{
+        position: relative;
+        left: 150px
+    }
+}
+
 /* footer */
 footer{
     width: 100%;
